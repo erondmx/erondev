@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Apostas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Apostas</h1>
+        <div class="input-group">
+            <label for="lucroDesejado">Lucro Desejado:</label>
+            <input type="number" id="lucroDesejado" placeholder="Digite o lucro desejado">
+        </div>
+        <div class="input-group">
+            <label for="odd">Odd do próximo jogo:</label>
+            <input type="number" step="0.01" id="odd" placeholder="Digite a odd">
+        </div>
+        <button id="calcular">Calcular</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
